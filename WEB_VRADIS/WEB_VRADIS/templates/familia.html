@@ -9,7 +9,10 @@
 <body>
     <h1>HOLA, LES PRESENTO MI FAMILIA: </h1>
     <p>La familia nuclear está compuesta por {{Relacion}} </p>
-    <p>El nombre de mi papa nombres[0]</p>
+    
+    { % for familia in familiares % }
+        <p>{{familia}}</p>
+        {% endfor %}
     
 </body>
 </html>

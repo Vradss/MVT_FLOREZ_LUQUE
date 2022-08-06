@@ -1,13 +1,13 @@
 from django.db import models
 
 # Create your models here.
-class madre(models.Model):
+class Madre(models.Model):
     nombre = models.CharField(max_length=50)
     apellido = models.CharField(max_length=50)
     edad = models.IntegerField()
     fecha_nac = models.DateField()
 
-class padre(models.Model):
+class Padre(models.Model):
     nombre = models.CharField(max_length=50)
     apellido = models.CharField(max_length=50)
     edad = models.IntegerField()
