@@ -6,11 +6,9 @@ class Madre(models.Model):
     apellido = models.CharField(max_length=50)
     edad = models.IntegerField()
     fecha_nac = models.DateField()
+    
 
-class Padre(models.Model):
-    nombre = models.CharField(max_length=50)
-    apellido = models.CharField(max_length=50)
-    edad = models.IntegerField()
-    fecha_nac = models.DateField()
+
+    
 
 

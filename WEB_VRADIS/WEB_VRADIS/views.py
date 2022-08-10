@@ -7,7 +7,7 @@ from django.template import Template, Context , loader
 
 def familia(request):
 
-    datos = {"Nombres": ["Guido Florez", "Bertha Luque" , "Laurita Florez"], "Relacion" : ["Padre", "Madre", "Hermana"]}
+    datos = {"Nombres": ["Guido Florez", "Bertha Luque" , "Laurita Florez"], "Relacion" : [ "Padre", "Madre", "Hermana" ]}
     plantilla = loader.get_template("familia.html")
     
     documento = plantilla.render(datos)

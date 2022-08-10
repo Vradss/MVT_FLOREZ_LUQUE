@@ -55,7 +55,7 @@ ROOT_URLCONF = 'WEB_VRADIS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"C:\Users\LENOVO\Desktop\Python\MVT_FLOREZ_LUQUE\WEB_VRADIS\WEB_VRADIS\templates"],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
